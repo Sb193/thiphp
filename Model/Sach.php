@@ -18,7 +18,7 @@
 		}
 		
 		public function update($data, $id){
-			return parent::Edit("sach" , $data);
+			return parent::Edit("sach" , $data , "masach = '$id'");
 		}
 		
 		public function destroy( $id){
